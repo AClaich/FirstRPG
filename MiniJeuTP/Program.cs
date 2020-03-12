@@ -8,11 +8,11 @@ namespace MiniJeuTP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Angel Attack !");
+            Console.WriteLine("First RPG !");
             Thread.Sleep(1000);
             Console.WriteLine("Appuyer sur la touche entrée " +
                 "pour continuez");
-            Wait.WaitKey(ConsoleKey.Spacebar);
+            Wait.WaitKey(ConsoleKey.Enter);
 
             HUD hud = new HUD();
 
@@ -20,7 +20,9 @@ namespace MiniJeuTP
             choices.Add("Jouer");
             choices.Add("Quitter");
 
-            hud.Menu(choices);
+            uint index = 0;
+
+            hud.Menu(choices, ref index);
 
             int[] result = GameOn();
 
