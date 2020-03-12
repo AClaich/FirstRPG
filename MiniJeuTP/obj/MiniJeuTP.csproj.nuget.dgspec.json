@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\claic\\OneDrive\\Bureau\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj": {}
+    "C:\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\claic\\OneDrive\\Bureau\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj": {
+    "C:\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\claic\\OneDrive\\Bureau\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj",
+        "projectUniqueName": "C:\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj",
         "projectName": "MiniJeuTP",
-        "projectPath": "C:\\Users\\claic\\OneDrive\\Bureau\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj",
+        "projectPath": "C:\\C# Projet\\MiniJeuTP\\MiniJeuTP\\MiniJeuTP.csproj",
         "packagesPath": "C:\\Users\\claic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\claic\\OneDrive\\Bureau\\C# Projet\\MiniJeuTP\\MiniJeuTP\\obj\\",
+        "outputPath": "C:\\C# Projet\\MiniJeuTP\\MiniJeuTP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

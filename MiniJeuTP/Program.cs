@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 
 namespace MiniJeuTP
@@ -7,12 +8,19 @@ namespace MiniJeuTP
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Angel Attack !");
             Thread.Sleep(1000);
             Console.WriteLine("Appuyer sur la touche entrée " +
                 "pour continuez");
-            
+            Wait.WaitKey(ConsoleKey.Spacebar);
+
+            HUD hud = new HUD();
+
+            List<string> choices = new List<string>();
+            choices.Add("Jouer");
+            choices.Add("Quitter");
+
+            hud.Menu(choices);
 
             int[] result = GameOn();
 
@@ -36,7 +44,8 @@ namespace MiniJeuTP
                     MonstreFacile monster = new MonstreFacile();
                     CombatFacile(monster, ref player);
                     resultat[0]++;
-                } else
+                }
+                else
                 {
                     MonstreDifficile monster = new MonstreDifficile();
                     CombatDifficile(monster, ref player);
@@ -49,7 +58,7 @@ namespace MiniJeuTP
 
         private static int Resultat(int[] result)
         {
-            return  result[0] + result[1] * 2;
+            return result[0] + result[1] * 2;
         }
 
         private static void CombatFacile(MonstreFacile monster, ref Joueur player)
@@ -91,12 +100,8 @@ namespace MiniJeuTP
                     monster.IsAlive = false;
                 }
 
-                
-            }
-        }
-        public void Menu()
-        {
 
+            }
         }
     }
 }

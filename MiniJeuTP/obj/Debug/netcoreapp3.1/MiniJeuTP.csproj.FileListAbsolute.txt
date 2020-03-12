@@ -12,3 +12,17 @@ C:\Users\claic\OneDrive\Bureau\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreap
 C:\Users\claic\OneDrive\Bureau\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.csproj.CopyComplete
 C:\Users\claic\OneDrive\Bureau\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.dll
 C:\Users\claic\OneDrive\Bureau\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.pdb
+C:\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.csprojAssemblyReference.cache
+C:\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.AssemblyInfoInputs.cache
+C:\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.AssemblyInfo.cs
+C:\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.dll
+C:\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.pdb
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\MiniJeuTP.exe
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\MiniJeuTP.deps.json
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\MiniJeuTP.runtimeconfig.json
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\MiniJeuTP.runtimeconfig.dev.json
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\MiniJeuTP.dll
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\MiniJeuTP.pdb
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\C# Projet\MiniJeuTP\MiniJeuTP\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\C# Projet\MiniJeuTP\MiniJeuTP\obj\Debug\netcoreapp3.1\MiniJeuTP.csproj.CopyComplete

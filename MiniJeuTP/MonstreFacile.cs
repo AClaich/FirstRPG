@@ -9,12 +9,6 @@ namespace MiniJeuTP
         public int VictoryPoint { get; private set; }
         public bool IsAlive { get; set; }
 
-        public MonstreFacile()
-        {
-            this.VictoryPoint = 1;
-            this.IsAlive = true;
-        }
-
         public int Jet()
         {
             return De.LancerD6();
