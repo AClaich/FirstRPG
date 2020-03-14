@@ -7,9 +7,10 @@ namespace MiniJeuTP
 {
     class Wait
     {
-        public static void TimeWait(int ms)
+        public static bool TimeWait(int ms)
         {
             Thread.Sleep(ms);
+            return true;
         }
 
         public static void WaitKey(ConsoleKey key)

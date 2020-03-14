@@ -8,18 +8,17 @@ namespace MiniJeuTP
     {
         public void Display()
         {
-            Console.WriteLine("                \\||/");
-            Console.WriteLine("                |  @___oo");
-            Console.WriteLine("      /\\  /\\   / (__,,,,|");
-            Console.WriteLine("     ) /^\\) ^\\/ _)");
-            Console.WriteLine("     )   /^\\/   _)");
-            Console.WriteLine("     )   _ /  / _)");
-            Console.WriteLine(" /\\  )/\\/ ||  | )_)");
-            Console.WriteLine("<  >      |(,,) )__)");
-            Console.WriteLine(" ||      /    \\)___)\\");
-            Console.WriteLine(" | \\____(      )___) )___");
-            Console.WriteLine("  \\______(_______;;; __;;;");
-
+            Console.WriteLine("    \\||//                ");
+            Console.WriteLine("oo___@  |                ");
+            Console.WriteLine("|,,,,__) \\   /\\  /\\     ");
+            Console.WriteLine("       (_ \\/^ (/^\\ (     ");
+            Console.WriteLine("       (_   \\/^\\   (     ");
+            Console.WriteLine("       (_ \\  \\ _   (     ");
+            Console.WriteLine("      (_( |  || \\/\\(  /\\ ");
+            Console.WriteLine("     (__( (,,)|      <  >");
+            Console.WriteLine("    /(___(/    \\      || ");
+            Console.WriteLine("___( (___(      )____/ | ");
+            Console.WriteLine(";;;__ ;;;_______)______/  ");
         }
     }
 }

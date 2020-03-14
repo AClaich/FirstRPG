@@ -4,9 +4,9 @@ using System.Windows;
 
 namespace MiniJeuTP
 {
-    class HUD
+    static class HUD
     {
-        public void Menu(List<string> choices, ref uint pointer)
+        public static void Menu(List<string> choices, ref uint pointer)
         {
             Console.WriteLine("First RPG !");
             Console.WriteLine("");
@@ -23,9 +23,11 @@ namespace MiniJeuTP
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.White;
                 }
-                Console.Write(choice + "  ");
+                Console.Write(choice);
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;
+                Console.Write("   ");
+
             }
 
             bool check = false;
@@ -58,6 +60,11 @@ namespace MiniJeuTP
 
             if (choices.IndexOf("Quitter") == pointer % choices.Count)
                 Environment.Exit(0);
+
+        }
+
+        public static void Run(ref int[] result)
+        {
 
         }
     }

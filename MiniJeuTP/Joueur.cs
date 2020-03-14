@@ -24,5 +24,12 @@ namespace MiniJeuTP
         {
             this.HealthPoint -= damage;
         }
+
+        public void Display()
+        {
+            Console.WriteLine("   .--._____,");
+            Console.WriteLine(".-= '==' == -, \"");
+            Console.WriteLine("(O_o_o_o_o_O)");
+        }
     }
 }

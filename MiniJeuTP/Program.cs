@@ -13,8 +13,7 @@ namespace MiniJeuTP
             Console.WriteLine("Appuyer sur la touche entrée " +
                 "pour continuez");
             Wait.WaitKey(ConsoleKey.Enter);
-
-            HUD hud = new HUD();
+            Console.Clear();
 
             List<string> choices = new List<string>();
             choices.Add("Jouer");
@@ -22,9 +21,11 @@ namespace MiniJeuTP
 
             uint index = 0;
 
-            hud.Menu(choices, ref index);
+            HUD.Menu(choices, ref index);
 
-            int[] result = GameOn();
+            int[] result = { 0, 0 };
+            
+            GameOn(ref result);
 
             Console.WriteLine("Bravo !!! Vous avez tué " +
                             result[0] + " monstres faciles et " +
@@ -32,10 +33,9 @@ namespace MiniJeuTP
                             "Vous avez " + Resultat(result) + " points.");
         }
 
-        private static int[] GameOn()
+        private static int[] GameOn(ref int[] result)
         {
             Joueur player = new Joueur();
-            int[] resultat = new int[] { 0, 0 };
 
             while (player.HealthPoint >= 1)
             {
@@ -45,17 +45,17 @@ namespace MiniJeuTP
                 {
                     MonstreFacile monster = new MonstreFacile();
                     CombatFacile(monster, ref player);
-                    resultat[0]++;
+                    result[0]++;
                 }
                 else
                 {
                     MonstreDifficile monster = new MonstreDifficile();
                     CombatDifficile(monster, ref player);
-                    resultat[1]++;
+                    result[1]++;
                 }
             }
 
-            return resultat;
+            return result;
         }
 
         private static int Resultat(int[] result)
